@@ -48,7 +48,4 @@ If you have applied a patch, upgraded, or implemented something completely new i
 Source code in licensed under Creative Commons BY-NC-ND 4.0
 
 ![alt tag]
-
-(http://mirrors.creativecommons.org/presskit/buttons/80x15/
-
-png/by-nc-nd.png)
+(http://mirrors.creativecommons.org/presskit/buttons/80x15/png/by-nc-nd.png)
