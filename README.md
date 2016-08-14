@@ -1,14 +1,6 @@
 #Cyjon
 
-[![Join the chat at https://gitter.im/akasei/Cyjon]
-
-(https://badges.gitter.im/akasei/Cyjon.svg)]
-
-(https://gitter.im/akasei/Cyjon?
-
-utm_source=badge&utm_medium=badge&utm_campaign=pr-
-
-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/akasei/Cyjon](https://badges.gitter.im/akasei/Cyjon.svg)](https://gitter.im/akasei/Cyjon?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 A Simple multi-tasking system written in assembly language 
 
