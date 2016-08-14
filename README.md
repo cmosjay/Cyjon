@@ -1,43 +1,62 @@
 #Cyjon
 
-[![Join the chat at https://gitter.im/akasei/Cyjon](https://badges.gitter.im/akasei/Cyjon.svg)](https://gitter.im/akasei/Cyjon?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/akasei/Cyjon]
 
-Prosty i wielozadaniowy System Operacyjny (zobaczymy co z tego wyjdzie, może System Usług), napisany w języku asemblera dla procesorów z rodziny amd64/x86-64.
+(https://badges.gitter.im/akasei/Cyjon.svg)]
+
+(https://gitter.im/akasei/Cyjon?
+
+utm_source=badge&utm_medium=badge&utm_campaign=pr-
+
+badge&utm_content=badge)
+
+A Simple multi-tasking system written in assembly language 
+
+for the amd64/x86_64 processor family.
 
 ![screenshot](screenshot.gif)
 
-#Wymagania sprzętowe:
-- procesor z rodziny amd64/x86-64,
-- 1 MiB pamięci RAM pod adresem fizycznym 0x0000000000100000,
+#Hardware Requirements:
+- A amd64/x86_64 Processor
+- 1 MiB physical RAM memory at address 0x0000000000100000,
 
-#Oprogramowanie:
-- kompilator Nasm v2.11.08+ (http://www.nasm.us/)
-- oprogramowanie Bochs v2.6.8+ (http://sourceforge.net/projects/bochs/files/bochs/),
-- lub oprogramowanie Qemu v2.5.0+ (http://wiki.qemu.org/Main_Page),
-- lub oprogramowanie VirtualBox v5.0.18+ (https://www.virtualbox.org/wiki/Downloads)
+#Software:
+- Nasm Compiler v2.11.08+ (http://www.nasm.us/)
+- Bochs Emulation Software v2.6.8+ 
 
-#Kompilacja (z poziomu konsoli):
+(http://sourceforge.net/projects/bochs/files/bochs/),
+- or QEMU Emulation Software v2.5.0+ 
+
+(http://wiki.qemu.org/Main_Page),
+- or VirtualBox Emulation Software v5.0.18+ 
+
+(https://www.virtualbox.org/wiki/Downloads)
+
+#Compilation from Terminal:
 
     GNU/Linux:
-    polecenie "make"
+    Command "make"
 
-#Uruchomienie:
+#Startup:
 
-    W konfiguracji oprogramowania Bochs i VirtualBox ustawiamy dysk wirtualny "build/disk with omega.raw" jako IDE0 Master.
+    Configure Bochs and Virtualbox: set virtual disc "build/disk with omega.raw" as IDE0 Master.
 
-    qemu-system-x86_64 -hda "build/disk with omega.raw"
+    Configure qemu: "qemu-system-x86_64 -hda "build/disk with omega.raw""
 
 #Uwagi:
-Emulatory pod systemem z rodziny MS/Windows mogą nie obsługiwać prawidłowo klawiszy strzałek/kursorów. Nie mam pojęcia kogo to wina - emulatora czy systemu.
+Emulators on Microsoft Windows may not handle the arrow/cursor keys properly. Neither I nor akasei are responsible for this. It is an issue with the emulation software.
 
 #Credit:
-Jeśli udało ci się nanieść poprawkę, ulepszenie lub coś zupełnie nowego w źródle systemu,
-dopisz się do grupy programistów Wataha.net!
+If you have applied a patch, upgraded, or implemented something completely new in the source system, add yourself to the group of developers at http://wataha.net!
 
 - Andrzej Adamczyk, akasei
 - Darek Kwieciński, devport
 
 #License:
-Kod źródlowy systemu operacyjnego jest na licencji Creative Commons BY-NC-ND 4.0
+Source code in licensed under Creative Commons BY-NC-ND 4.0
 
-![alt tag](http://mirrors.creativecommons.org/presskit/buttons/80x15/png/by-nc-nd.png)
+![alt tag]
+
+(http://mirrors.creativecommons.org/presskit/buttons/80x15/
+
+png/by-nc-nd.png)
